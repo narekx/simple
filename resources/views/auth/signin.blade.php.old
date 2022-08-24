@@ -1,0 +1,40 @@
+
+  <div class="auth d-flex">
+    <div class="d-flex flex-column justify-content-center align-items-center auth-content">
+
+      <a class="auth-content__logo" href="/">
+        <img src="{{asset('static/img/logo.svg')}}" width="180" alt="">
+      </a>
+
+      <h2 class="auth-content__title">Բարի գալուստ</h2>
+
+      <form class="auth-content__form" action="/dashboard">
+
+        <div class="input-group has-validation mb-3">
+          <input type="email" class="form-control" placeholder="Էլ. փոստ" required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+
+        <div class="input-group has-validation mb-2">
+          <input type="password" class="form-control" placeholder="Գաղտնաբառ" required>
+          <div class="invalid-feedback">
+            Please choose a username.
+          </div>
+        </div>
+
+        <div class="text-end mb-2">
+          <a class="auth-content__link" href="/auth/password-reset">Մոռացել եք գաղտնաբառը՞</a>
+        </div>
+
+        <button class="btn btn-primary btn-sm w-100 mb-2">Մուտք</button>
+
+        <div class="text-center">
+          <a class="auth-content__link" href="/auth/signup">Դեռ չունեք հաշիվ?</a>
+        </div>
+
+      </form>
+
+    </div>
+  </div>

@@ -1,0 +1,15 @@
+button.ColVis_Button, ul.ColVis_collection li{
+    margin-left: 3px;
+}
+.imagesBlok{
+	min-height: 150px;
+	border: 1px solid ;
+}
+.imgF{
+	height: 100px;
+	width: 100px;
+}
+.margin-10{
+	margin: 10px;
+}
+

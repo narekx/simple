@@ -1,0 +1,83 @@
+.service-item {
+  background: #fff;
+  box-shadow: 0px 3px 6px #00000052;
+  border: 3px solid #fff;
+  border-radius: 4px;
+  color: #000;
+
+  &__img {
+    border-radius: inherit;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 55%;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+  }
+
+  &__like {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../img/icons/heart.svg);
+  }
+
+  &__content {
+    padding: 12px 12px;
+
+    h4 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 4px;
+    }
+
+    .service-item-location {
+      font-size: 12px;
+      line-height: 14px;
+      margin-right: 8px;
+    }
+
+    .service-item-rating {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      margin-bottom: 14px;
+
+      li {
+        background-image: url(../../img/icons/star.svg);
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    h5 {
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 22px;
+    }
+
+    .service-item-contact {
+      a {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}

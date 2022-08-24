@@ -1,0 +1,134 @@
+.search {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4f4f50;
+    background-image: url(../../img/search.png);
+    background-position: center;
+    background-size: cover;
+    padding: 122px 0 30px;
+  }
+
+  .title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+  }
+
+  .search-filter {
+    background: #FCFCFC;
+    box-shadow: 4px 2px 13px #00000029;
+    padding: 20px;
+    height: 100%;
+
+    &__title {
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 600;
+      color: #000;
+      margin-bottom: 16px;
+    }
+
+    &__active {
+      margin-bottom: 50px;
+
+      p {
+        padding-left: 20px;
+        margin-bottom: 14px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 600;
+        color: #000;
+      }
+
+      ul {
+        margin: 0 -6px;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 18px;
+          line-height: 22px;
+          font-weight: 500;
+          color: #fff;
+          background: #959595;
+          border-radius: 8px;
+          padding: 12px 20px;
+          margin: 6px;
+
+          button {
+            background: transparent;
+            border: none;
+            outline: none;
+            background-image: url(../../img/icons/close.svg);
+            width: 14px;
+            height: 14px;
+            margin-left: 24px;
+          }
+        }
+      }
+    }
+
+    &__group {
+      a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 24px;
+        position: relative;
+        text-decoration: none;
+
+        &::after {
+          content: '';
+          border: none;
+          width: 24px;
+          height: 24px;
+          background-image: url(../../img/icons/arrow.svg);
+          margin-left: 24px;
+        }
+
+        &:not(.collapsed)::after {
+          transform: rotate(180deg);
+        }
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 12px;
+
+        li {
+          margin-bottom: 18px;
+
+          .form-check-label {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            span {
+              background: $primary;
+              color: #fff;
+              font-size: 14px;
+              line-height: 18px;
+              padding: 1px 14px;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

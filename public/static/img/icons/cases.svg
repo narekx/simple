@@ -1,0 +1,11 @@
+<svg id="cases_black_24dp" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Group_2754" data-name="Group 2754">
+    <rect id="Rectangle_10955" data-name="Rectangle 10955" width="36" height="36" fill="none"/>
+  </g>
+  <g id="Group_2756" data-name="Group 2756" transform="translate(1 2)">
+    <g id="Group_2755" data-name="Group 2755">
+      <path id="Path_110211" data-name="Path 110211" d="M4.063,9H1V25.844a3.052,3.052,0,0,0,3.063,3.063H30.095V25.844H4.063Z" transform="translate(-1 3.25)" fill="#9e9e9e"/>
+      <path id="Path_110212" data-name="Path 110212" d="M24.907,7.125V4.063A3.072,3.072,0,0,0,21.844,1H15.719a3.072,3.072,0,0,0-3.063,3.063V7.125H5V23.969a3.072,3.072,0,0,0,3.063,3.063H29.5a3.072,3.072,0,0,0,3.063-3.063V7.125ZM15.719,4.063h6.125V7.125H15.719ZM29.5,23.969H8.063V10.188H29.5Z" transform="translate(1.125 -1)" fill="#9e9e9e"/>
+    </g>
+  </g>
+</svg>

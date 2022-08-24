@@ -1,0 +1,16 @@
+
+  <div class="auth d-flex">
+    <div class="d-flex flex-column justify-content-center align-items-center auth-content">
+
+      <a class="auth-content__logo" href="/">
+        <img src="{{asset('static/img/logo.svg')}}" width="180" alt="">
+      </a>
+
+      <h2 class="auth-content__title">Շնորհակալություն</h2>
+
+      <div class="auth-content__form">
+        <p class="text-center">Խնդրում ենք անցնել Ձեր Էլ. փոստին <br />ուղարկված հղմամբ, <br />որպեսզի վերականգնեք Ձեր գաղտնաբառը:</p>
+      </div>
+
+    </div>
+  </div>

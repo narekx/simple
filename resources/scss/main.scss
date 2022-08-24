@@ -1,0 +1,118 @@
+$primary: #5CBE07;
+$gray-900: #4F4F4F;
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+$theme-colors: (
+  "primary": $primary,
+);
+
+// Configuration
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+// Layout & components
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/transitions";
+
+// Utilities
+@import "~bootstrap/scss/utilities/api";
+
+// Global layouts
+@import './layouts/header';
+@import './layouts/footer';
+
+@import './dashboard/main';
+
+// Pages
+@import './pages/home';
+@import './pages/search';
+@import './pages/auth';
+
+// Components
+@import './components/search';
+@import './components/service';
+
+.container {
+  max-width: calc(1490px + 36px + 36px);
+  width: 100%;
+  margin: 0 auto;
+
+  @include media-breakpoint-down(xl) {
+    padding: 0 36px;
+  }
+}
+
+.main-title {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-bottom: 76px;
+  text-align: center;
+  color: #000;
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -18px;
+    left: 0;
+    height: 7px;
+    width: 104px;
+    background-image: url(../../img/header-underline.svg);
+  }
+}
+
+.btn {
+  font-weight: 600;
+  color: white;
+  font-size: 16px;
+  padding: 16px 48px;
+  border-radius: 6px;
+
+  &-sm {
+    padding: 10px 35px;
+  }
+
+  &-custom {
+    font-weight: 500;
+    color: #242424;
+  }
+}
+
+.dropdown-toggle {
+  display: flex;
+
+  &::after {
+    border: none;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../img/icons/arrow.svg);
+    margin-left: 24px;
+  }
+}
+
+.form-check {
+  .form-check-input {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000;
+    margin-right: 12px;
+  }
+
+  .form-check-label {
+    color: #000;
+  }
+}

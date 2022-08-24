@@ -1,0 +1,18 @@
+.bfh-languages .bfh-selectbox-toggle{
+    width: auto !important;
+    height: 24px;
+    display: block;
+    padding-bottom: 1px;
+}
+
+.bfh-countries .bfh-selectbox-toggle{
+    width: auto !important;
+    height: 24px;
+    display: block;
+    padding-bottom: 1px;
+}
+
+.not-translated{
+    font-style: italic;
+    color: #D14;
+}

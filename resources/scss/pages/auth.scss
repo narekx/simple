@@ -1,0 +1,51 @@
+.auth {
+  min-height: calc(100vh - 106px);
+  height: 100%;
+
+  &::before {
+    content: '';
+    background-image: url(../../img/auth.png);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    min-height: 100%;
+  }
+
+  .auth-content {
+    width: 504px;
+    padding: 24px 0;
+
+    &__logo {
+      margin-bottom: 24px;
+    }
+
+    &__title {
+      font-size: 20px;
+      line-height: 24px;
+      color: #000;
+      margin-bottom: 24px;
+    }
+
+    &__form {
+      width: 344px;
+
+      .form-control {
+        border: 2px solid #000000;
+        border-radius: 4px;
+        padding: 11px 20px;
+      }
+    }
+
+    &__link {
+      font-size: 14px;
+      line-height: 18px;
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
